@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4CBCF701D5860D700EB7366 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCF6F1D5860D700EB7366 /* main.m */; };
+		D4CBCF731D5860D700EB7366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCF721D5860D700EB7366 /* AppDelegate.m */; };
+		D4CBCF761D5860D700EB7366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCF751D5860D700EB7366 /* ViewController.m */; };
+		D4CBCF791D5860D800EB7366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CBCF771D5860D800EB7366 /* Main.storyboard */; };
+		D4CBCF7C1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCF7A1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodeld */; };
+		D4CBCF7E1D5860D800EB7366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CBCF7D1D5860D800EB7366 /* Assets.xcassets */; };
+		D4CBCF811D5860D800EB7366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CBCF7F1D5860D800EB7366 /* LaunchScreen.storyboard */; };
+		D4CBCF8C1D5860D800EB7366 /* LGLCustomTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCF8B1D5860D800EB7366 /* LGLCustomTextViewDemoTests.m */; };
+		D4CBCF971D5860D800EB7366 /* LGLCustomTextViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCF961D5860D800EB7366 /* LGLCustomTextViewDemoUITests.m */; };
+		D4CBCFA91D58610200EB7366 /* LGLCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCFA61D58610200EB7366 /* LGLCustomTextView.m */; };
+		D4CBCFAA1D58610200EB7366 /* UIView+LGL.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CBCFA81D58610200EB7366 /* UIView+LGL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4CBCF881D5860D800EB7366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CBCF631D5860D700EB7366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4CBCF6A1D5860D700EB7366;
+			remoteInfo = LGLCustomTextViewDemo;
+		};
+		D4CBCF931D5860D800EB7366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CBCF631D5860D700EB7366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4CBCF6A1D5860D700EB7366;
+			remoteInfo = LGLCustomTextViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4CBCF6B1D5860D700EB7366 /* LGLCustomTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGLCustomTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CBCF6F1D5860D700EB7366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4CBCF711D5860D700EB7366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4CBCF721D5860D700EB7366 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4CBCF741D5860D700EB7366 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4CBCF751D5860D700EB7366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4CBCF781D5860D800EB7366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4CBCF7B1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LGLCustomTextViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		D4CBCF7D1D5860D800EB7366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4CBCF801D5860D800EB7366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4CBCF821D5860D800EB7366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CBCF871D5860D800EB7366 /* LGLCustomTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGLCustomTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CBCF8B1D5860D800EB7366 /* LGLCustomTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLCustomTextViewDemoTests.m; sourceTree = "<group>"; };
+		D4CBCF8D1D5860D800EB7366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CBCF921D5860D800EB7366 /* LGLCustomTextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGLCustomTextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CBCF961D5860D800EB7366 /* LGLCustomTextViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLCustomTextViewDemoUITests.m; sourceTree = "<group>"; };
+		D4CBCF981D5860D800EB7366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CBCFA51D58610200EB7366 /* LGLCustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLCustomTextView.h; sourceTree = "<group>"; };
+		D4CBCFA61D58610200EB7366 /* LGLCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLCustomTextView.m; sourceTree = "<group>"; };
+		D4CBCFA71D58610200EB7366 /* UIView+LGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGL.h"; sourceTree = "<group>"; };
+		D4CBCFA81D58610200EB7366 /* UIView+LGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGL.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4CBCF681D5860D700EB7366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CBCF841D5860D800EB7366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CBCF8F1D5860D800EB7366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4CBCF621D5860D700EB7366 = {
+			isa = PBXGroup;
+			children = (
+				D4CBCF6D1D5860D700EB7366 /* LGLCustomTextViewDemo */,
+				D4CBCF8A1D5860D800EB7366 /* LGLCustomTextViewDemoTests */,
+				D4CBCF951D5860D800EB7366 /* LGLCustomTextViewDemoUITests */,
+				D4CBCF6C1D5860D700EB7366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CBCF6C1D5860D700EB7366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CBCF6B1D5860D700EB7366 /* LGLCustomTextViewDemo.app */,
+				D4CBCF871D5860D800EB7366 /* LGLCustomTextViewDemoTests.xctest */,
+				D4CBCF921D5860D800EB7366 /* LGLCustomTextViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4CBCF6D1D5860D700EB7366 /* LGLCustomTextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4CBCF711D5860D700EB7366 /* AppDelegate.h */,
+				D4CBCF721D5860D700EB7366 /* AppDelegate.m */,
+				D4CBCF741D5860D700EB7366 /* ViewController.h */,
+				D4CBCF751D5860D700EB7366 /* ViewController.m */,
+				D4CBCFA41D58610200EB7366 /* LGLCustomTextView */,
+				D4CBCF771D5860D800EB7366 /* Main.storyboard */,
+				D4CBCF7D1D5860D800EB7366 /* Assets.xcassets */,
+				D4CBCF7F1D5860D800EB7366 /* LaunchScreen.storyboard */,
+				D4CBCF821D5860D800EB7366 /* Info.plist */,
+				D4CBCF7A1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodeld */,
+				D4CBCF6E1D5860D700EB7366 /* Supporting Files */,
+			);
+			path = LGLCustomTextViewDemo;
+			sourceTree = "<group>";
+		};
+		D4CBCF6E1D5860D700EB7366 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CBCF6F1D5860D700EB7366 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4CBCF8A1D5860D800EB7366 /* LGLCustomTextViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4CBCF8B1D5860D800EB7366 /* LGLCustomTextViewDemoTests.m */,
+				D4CBCF8D1D5860D800EB7366 /* Info.plist */,
+			);
+			path = LGLCustomTextViewDemoTests;
+			sourceTree = "<group>";
+		};
+		D4CBCF951D5860D800EB7366 /* LGLCustomTextViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4CBCF961D5860D800EB7366 /* LGLCustomTextViewDemoUITests.m */,
+				D4CBCF981D5860D800EB7366 /* Info.plist */,
+			);
+			path = LGLCustomTextViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		D4CBCFA41D58610200EB7366 /* LGLCustomTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D4CBCFA51D58610200EB7366 /* LGLCustomTextView.h */,
+				D4CBCFA61D58610200EB7366 /* LGLCustomTextView.m */,
+				D4CBCFA71D58610200EB7366 /* UIView+LGL.h */,
+				D4CBCFA81D58610200EB7366 /* UIView+LGL.m */,
+			);
+			path = LGLCustomTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4CBCF6A1D5860D700EB7366 /* LGLCustomTextViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CBCF9B1D5860D800EB7366 /* Build configuration list for PBXNativeTarget "LGLCustomTextViewDemo" */;
+			buildPhases = (
+				D4CBCF671D5860D700EB7366 /* Sources */,
+				D4CBCF681D5860D700EB7366 /* Frameworks */,
+				D4CBCF691D5860D700EB7366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGLCustomTextViewDemo;
+			productName = LGLCustomTextViewDemo;
+			productReference = D4CBCF6B1D5860D700EB7366 /* LGLCustomTextViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4CBCF861D5860D800EB7366 /* LGLCustomTextViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CBCF9E1D5860D800EB7366 /* Build configuration list for PBXNativeTarget "LGLCustomTextViewDemoTests" */;
+			buildPhases = (
+				D4CBCF831D5860D800EB7366 /* Sources */,
+				D4CBCF841D5860D800EB7366 /* Frameworks */,
+				D4CBCF851D5860D800EB7366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4CBCF891D5860D800EB7366 /* PBXTargetDependency */,
+			);
+			name = LGLCustomTextViewDemoTests;
+			productName = LGLCustomTextViewDemoTests;
+			productReference = D4CBCF871D5860D800EB7366 /* LGLCustomTextViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4CBCF911D5860D800EB7366 /* LGLCustomTextViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CBCFA11D5860D800EB7366 /* Build configuration list for PBXNativeTarget "LGLCustomTextViewDemoUITests" */;
+			buildPhases = (
+				D4CBCF8E1D5860D800EB7366 /* Sources */,
+				D4CBCF8F1D5860D800EB7366 /* Frameworks */,
+				D4CBCF901D5860D800EB7366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4CBCF941D5860D800EB7366 /* PBXTargetDependency */,
+			);
+			name = LGLCustomTextViewDemoUITests;
+			productName = LGLCustomTextViewDemoUITests;
+			productReference = D4CBCF921D5860D800EB7366 /* LGLCustomTextViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4CBCF631D5860D700EB7366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lgl.cn;
+				TargetAttributes = {
+					D4CBCF6A1D5860D700EB7366 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D4CBCF861D5860D800EB7366 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4CBCF6A1D5860D700EB7366;
+					};
+					D4CBCF911D5860D800EB7366 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4CBCF6A1D5860D700EB7366;
+					};
+				};
+			};
+			buildConfigurationList = D4CBCF661D5860D700EB7366 /* Build configuration list for PBXProject "LGLCustomTextViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4CBCF621D5860D700EB7366;
+			productRefGroup = D4CBCF6C1D5860D700EB7366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4CBCF6A1D5860D700EB7366 /* LGLCustomTextViewDemo */,
+				D4CBCF861D5860D800EB7366 /* LGLCustomTextViewDemoTests */,
+				D4CBCF911D5860D800EB7366 /* LGLCustomTextViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4CBCF691D5860D700EB7366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CBCF811D5860D800EB7366 /* LaunchScreen.storyboard in Resources */,
+				D4CBCF7E1D5860D800EB7366 /* Assets.xcassets in Resources */,
+				D4CBCF791D5860D800EB7366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CBCF851D5860D800EB7366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CBCF901D5860D800EB7366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4CBCF671D5860D700EB7366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CBCF761D5860D700EB7366 /* ViewController.m in Sources */,
+				D4CBCF7C1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodeld in Sources */,
+				D4CBCFAA1D58610200EB7366 /* UIView+LGL.m in Sources */,
+				D4CBCF731D5860D700EB7366 /* AppDelegate.m in Sources */,
+				D4CBCFA91D58610200EB7366 /* LGLCustomTextView.m in Sources */,
+				D4CBCF701D5860D700EB7366 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CBCF831D5860D800EB7366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CBCF8C1D5860D800EB7366 /* LGLCustomTextViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CBCF8E1D5860D800EB7366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CBCF971D5860D800EB7366 /* LGLCustomTextViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4CBCF891D5860D800EB7366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4CBCF6A1D5860D700EB7366 /* LGLCustomTextViewDemo */;
+			targetProxy = D4CBCF881D5860D800EB7366 /* PBXContainerItemProxy */;
+		};
+		D4CBCF941D5860D800EB7366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4CBCF6A1D5860D700EB7366 /* LGLCustomTextViewDemo */;
+			targetProxy = D4CBCF931D5860D800EB7366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4CBCF771D5860D800EB7366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CBCF781D5860D800EB7366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4CBCF7F1D5860D800EB7366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CBCF801D5860D800EB7366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4CBCF991D5860D800EB7366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4CBCF9A1D5860D800EB7366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4CBCF9C1D5860D800EB7366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGLCustomTextViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgl.LGLCustomTextViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4CBCF9D1D5860D800EB7366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGLCustomTextViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgl.LGLCustomTextViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4CBCF9F1D5860D800EB7366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGLCustomTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgl.LGLCustomTextViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLCustomTextViewDemo.app/LGLCustomTextViewDemo";
+			};
+			name = Debug;
+		};
+		D4CBCFA01D5860D800EB7366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGLCustomTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgl.LGLCustomTextViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLCustomTextViewDemo.app/LGLCustomTextViewDemo";
+			};
+			name = Release;
+		};
+		D4CBCFA21D5860D800EB7366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGLCustomTextViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgl.LGLCustomTextViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGLCustomTextViewDemo;
+			};
+			name = Debug;
+		};
+		D4CBCFA31D5860D800EB7366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGLCustomTextViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgl.LGLCustomTextViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGLCustomTextViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4CBCF661D5860D700EB7366 /* Build configuration list for PBXProject "LGLCustomTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CBCF991D5860D800EB7366 /* Debug */,
+				D4CBCF9A1D5860D800EB7366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CBCF9B1D5860D800EB7366 /* Build configuration list for PBXNativeTarget "LGLCustomTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CBCF9C1D5860D800EB7366 /* Debug */,
+				D4CBCF9D1D5860D800EB7366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4CBCF9E1D5860D800EB7366 /* Build configuration list for PBXNativeTarget "LGLCustomTextViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CBCF9F1D5860D800EB7366 /* Debug */,
+				D4CBCFA01D5860D800EB7366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4CBCFA11D5860D800EB7366 /* Build configuration list for PBXNativeTarget "LGLCustomTextViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CBCFA21D5860D800EB7366 /* Debug */,
+				D4CBCFA31D5860D800EB7366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4CBCF7A1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4CBCF7B1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodel */,
+			);
+			currentVersion = D4CBCF7B1D5860D800EB7366 /* LGLCustomTextViewDemo.xcdatamodel */;
+			path = LGLCustomTextViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4CBCF631D5860D700EB7366 /* Project object */;
+}
