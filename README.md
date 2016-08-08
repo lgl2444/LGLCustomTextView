@@ -1,0 +1,2 @@
+# LGLCustomTextView
+自定义的带有占位文字的textView
